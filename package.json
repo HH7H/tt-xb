@@ -1,0 +1,19 @@
+{
+	"name": "tt-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"server": "nodemon main.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"express": "^4.17.3",
+       "playwright-chromium": "^1.10.0",
+	}
+}
