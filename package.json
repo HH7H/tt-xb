@@ -1,5 +1,5 @@
 {
-  "name": "tiktok-signature",
+  "name": "tt-sign",
   "version": "1.7.3",
   "description": "Generate TikTok Signature",
   "main": "main.js",
@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carcabot/tiktok-signature.git"
+    "url": "git+https://github.com/HH7H/tt-xb.git"
   },
   "keywords": [
     "tiktok",
     "signature",
     "generator"
   ],
-  "author": "CarcaBot",
+  "author": "HH7H",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/carcabot/tiktok-signature/issues"
+    "url": "https://github.com/HH7H/tt-sign/issues"
   },
-  "homepage": "https://github.com/carcabot/tiktok-signature#readme",
+  "homepage": "https://github.com/HH7H/tt-sign#readme",
   "dependencies": {
     "playwright-chromium": "^1.10.0",
-    "express": "^4.17.1",
+    "express": "^4.17.1"
   }
 }
