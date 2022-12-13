@@ -1,19 +1,29 @@
 {
-	"name": "tt-api",
-	"version": "1.0.0",
-	"description": "",
-	"main": "main.js",
-	"scripts": {
-		"server": "nodemon main.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"nodemon": "^2.0.15"
-	},
-	"dependencies": {
-		"express": "^4.17.3",
-       "playwright-chromium": "^1.10.0",
-	}
+  "name": "tiktok-signature",
+  "version": "1.7.3",
+  "description": "Generate TikTok Signature",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carcabot/tiktok-signature.git"
+  },
+  "keywords": [
+    "tiktok",
+    "signature",
+    "generator"
+  ],
+  "author": "CarcaBot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carcabot/tiktok-signature/issues"
+  },
+  "homepage": "https://github.com/carcabot/tiktok-signature#readme",
+  "dependencies": {
+    "playwright-chromium": "^1.10.0",
+    "express": "^4.17.3",
+  }
 }
